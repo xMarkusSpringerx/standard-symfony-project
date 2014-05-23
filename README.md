@@ -3,6 +3,21 @@ Symfony Standard Project
 
 A symfony standard project with FOS UserBundle, bootstrap and bower
 
+Install Vendors
+===============
+
+Download Composer into your project folder
+
+```
+    curl -sS https://getcomposer.org/installer | php
+```
+
+Install Vendors in your project
+
+```
+./composer.phar install
+```
+
 PDO Session Handler
 ===================
 
