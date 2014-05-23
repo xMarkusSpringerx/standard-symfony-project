@@ -1,0 +1,12 @@
+{
+    "name" : "symfony-dazorni-standard",
+    "author" : "Sebsatian Zorn",
+    "private" : true,
+
+    "devDependencies" : {
+        "grunt" :                   "~0.4.0",
+        "grunt-contrib-less":       "*",
+        "grunt-contrib-cssmin":     "*",
+        "grunt-contrib-watch":      "*"
+    }
+}
