@@ -9,7 +9,7 @@ Install Vendors
 Download Composer into your project folder
 
 ```
-    curl -sS https://getcomposer.org/installer | php
+curl -sS https://getcomposer.org/installer | php
 ```
 
 Install Vendors in your project
@@ -17,6 +17,37 @@ Install Vendors in your project
 ```
 ./composer.phar install
 ```
+
+Bower Installation
+==================
+
+Install bower
+
+```
+npm install -g bower
+```
+
+If bower is installed you can install all bower packages this project uses
+
+```
+bower install
+```
+
+Grunt Installation
+==================
+
+Install grunt
+
+```
+npm install -g grunt-cli
+```
+
+Install all configured npm grunt packages in the project folder
+
+```
+npm install
+```
+
 
 PDO Session Handler
 ===================
@@ -32,4 +63,3 @@ CREATE TABLE `session` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ```
-
