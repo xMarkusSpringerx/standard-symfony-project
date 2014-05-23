@@ -1,6 +1,7 @@
 .idea/*
 !.idea/watcherTasks.xml
 /web/bundles/
+/web/public/css
 /app/bootstrap.php.cache
 /app/cache/*
 /app/config/parameters.yml
