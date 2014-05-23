@@ -48,6 +48,17 @@ Install all configured npm grunt packages in the project folder
 npm install
 ```
 
+Run all default tasks of grunt
+
+```
+grunt
+```
+
+If you work in this project run grunt watch to watch changed files
+
+```
+grunt watch
+```
 
 PDO Session Handler
 ===================
