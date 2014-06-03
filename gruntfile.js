@@ -10,6 +10,7 @@ module.exports = function(grunt){
 
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // Project configuration.
     grunt.initConfig({
@@ -44,9 +45,19 @@ module.exports = function(grunt){
                 files: '**/*.less',
                 tasks: ['less']
             }
+        },
+        
+        uglify: {
+            js: {
+              files: {
+                files: '**/*.js',
+                tasks: ['uglify']
+              }
+            }
         }
     });
 
     grunt.registerTask('buildless',  ['less']);
     grunt.registerTask('default', ['buildless']);
+    grunt.registerTask('minify', ['uglify']);
 };
